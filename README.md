@@ -1,5 +1,12 @@
 # LoopQueen (Escape Dungeon 3) save file decrypt/encrypt tool
-
+---
+> [!IMPORTANT]
+> Extensive modification of the software directory may violate the developer's policies and terms; we accept no responsibility for any issues arising between you—the software user—and the distributor. Continue with your own risk.
+---
+The developers describe the content like this:
+- This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work . The game contains Nudity or Sexual Content, Frequent Violence, sexual assault, non-consensual sex, BDSM, bestiality, sexual encounters with tentacles and monsters.
+- All characters portrayed in this game are over the age of 20.
+---
 ## Algorithm (extracted from Assembly-CSharp.dll, EncryptTools class):
     Cipher:  AES-256 (RijndaelManaged, 256-bit key)
     Mode:    ECB  (no IV)
@@ -18,8 +25,8 @@
 python3 loopqueen_save_tool.py decrypt <in.json> [out.json]
 ```  
     - Exam the output json file, edit or do whatever you want.
-  > [!Attention]
-Always back up your original save files before overwriting them.
+> [!CAUTION]
+> Always back up your original save files before overwriting them.
 
     - To encrypt (final step):
 ```bash
