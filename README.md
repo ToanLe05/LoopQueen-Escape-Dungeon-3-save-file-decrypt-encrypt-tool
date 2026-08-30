@@ -65,6 +65,9 @@ public static class EncryptTools
 ## Supplementary Material 2
 
 *data_a_user_default.json* and *data_a_user_game_data.json* hold progress/stage state, 
+
 *user_setting.json* holds options (language, volume, difficulty), 
+
 *user_memories.json* holds your unlocked-CG gallery flags, 
+
 *user_game_log.json* is just a small log plus your Steam ID.
