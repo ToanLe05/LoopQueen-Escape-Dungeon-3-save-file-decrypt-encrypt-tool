@@ -32,9 +32,7 @@ python3 loopqueen_save_tool.py encrypt out.json data_a_user_game_data.json
 ```
 
 ### decrypt: reads an encrypted save file, writes pretty-printed JSON.
-### encrypt: reads pretty-printed (or minified) JSON, writes an encrypted
-         save file in the game's format -- use this to write edited
-         values back so the game will load them.
+### encrypt: reads pretty-printed (or minified) JSON, writes an encrypted save file in the game's format -- use this to write edited values back so the game will load them.
 
 [!Warning]
 Always back up your original save files before overwriting them.
