@@ -41,7 +41,10 @@ Always back up your original save files before overwriting them.
 
 ---
 
-*data_a_user_default.json* and *data_a_user_game_data.json* hold progress/stage state, 
-*user_setting.json* holds options (language, volume, difficulty), 
-*user_memories.json* holds your unlocked-CG gallery flags, 
-*user_game_log.json* is just a small log plus your Steam ID.
+*data_a_user_default.json* and *data_a_user_game_data.json* hold progress/stage state
+
+*user_setting.json* holds options (language, volume, difficulty)
+
+*user_memories.json* holds your unlocked-CG gallery flags
+
+*user_game_log.json* is just a small log plus your Steam ID
